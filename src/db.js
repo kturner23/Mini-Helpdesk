@@ -23,7 +23,9 @@ db.serialize(() => {
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )
-  `);
+  `, (err) => {
+      if (err) console.error("Create table error:", err.message);
+  });
 });
 
 module.exports = db;

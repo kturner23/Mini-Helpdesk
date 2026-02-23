@@ -1,0 +1,26 @@
+{
+  "name": "mini-helpdesk",
+  "version": "1.0.0",
+  "description": "ResolveIT Mini Helpdesk API built with Node.js, Express, and SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "rest-api",
+    "helpdesk"
+  ],
+  "author": "Kiara Turner",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
